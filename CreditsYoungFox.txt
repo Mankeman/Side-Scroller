@@ -1,0 +1,17 @@
+music: Metaruka (Submitted by maxstack) CC BY-SA 3.0
+Some of the sounds in this project were created by David McKee (ViRiX) soundcloud.com/virix
+
+Character created by Hugues Laborde
+
+Game Controller
+Player
+Main Camera
+Grid
+Space
+Canvas
+Event System
+Diff Audios
+In Game Objects
+Enemies
+A*
+Boundary

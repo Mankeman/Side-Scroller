@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Boss
+  - Boundary
+  - Gem
+  - Unbreakable
+  - JumpText
+  - DashText
+  - PlayerParticle
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacle
+  - Ground
+  - Boundary
+  - Gem
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 267052017
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Effects
+    uniqueID: 307036943
+    locked: 0
+  - name: Foreground
+    uniqueID: 781615249
+    locked: 0
+  - name: UI
+    uniqueID: 2475659809
+    locked: 0
+  - name: Boundary
+    uniqueID: 1669430243
+    locked: 0
