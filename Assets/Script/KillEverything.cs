@@ -27,7 +27,7 @@ public class KillEverything : MonoBehaviour
             gameControllerScript.GemDeath = true;
             gameControllerScript.EndGame();
         }
-        else
+        else if (other.gameObject.tag == "Enemy")
         {
             Destroy(other.gameObject);
         }

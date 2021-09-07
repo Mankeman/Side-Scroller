@@ -6,6 +6,10 @@ using Pathfinding;
 public class EnemyGFX : MonoBehaviour
 {
     public AIPath pathfinder;
+    private void Start()
+    {
+        pathfinder = GetComponentInParent<AIPath>();
+    }
     void Update()
     {
         if (pathfinder.desiredVelocity.x >= 0.01f)

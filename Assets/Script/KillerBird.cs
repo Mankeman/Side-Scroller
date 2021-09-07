@@ -6,8 +6,12 @@ public class KillerBird : MonoBehaviour
 {
     public int health = 100;
     private GameController gameControllerScript;
-    void Start()
+    public SoundManager soundManager;
+    public AudioSource eagleSound;
+    void Awake()
     {
+        soundManager = GameObject.FindObjectOfType<SoundManager>();
+        eagleSound = GameObject.Find("AudioEagle").GetComponent<AudioSource>();
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
 
         if (gameControllerObject != null)
@@ -32,6 +36,11 @@ public class KillerBird : MonoBehaviour
         }
     }
     private void Die()
+    {
+        soundManager.SoundEffect(eagleSound, 0.9f, 1.10f);
+        Destroy(gameObject);
+    }
+    private void GemDeath()
     {
         Destroy(gameObject);
     }

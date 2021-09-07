@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 2500
+  speed: 1500
   nextWaypointDistance: 3
   enemyGFX: {fileID: 2560618658836242805}
 --- !u!114 &2560618657776908374
@@ -113,6 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d656ce51f4778cc438c6b479959731f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  soundManager: {fileID: 0}
+  eagleSound: {fileID: 0}
 --- !u!70 &2540331212723878440
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -176,6 +179,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -218,7 +223,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2560618658836242802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6704f5f14b4cd47a22ace7745b89e5, type: 3}
   m_Name: 

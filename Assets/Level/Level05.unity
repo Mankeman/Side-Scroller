@@ -4128,6 +4128,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 209730064210262624, guid: e276af6a20a73cd4dba6fc16d99c08c9,
         type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 209730064210262624, guid: e276af6a20a73cd4dba6fc16d99c08c9,
+        type: 3}
       propertyPath: followTarget
       value: 
       objectReference: {fileID: 492655052}
@@ -4444,6 +4449,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4802026840219700567, guid: 06b36cc48fe2d6d43a106fc118539da6,
         type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802026840219700567, guid: 06b36cc48fe2d6d43a106fc118539da6,
+        type: 3}
       propertyPath: followTarget
       value: 
       objectReference: {fileID: 492655052}
@@ -4528,6 +4538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2560618657776908370, guid: 4fcc77ea55f26d945b573dfcda6191a1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2560618657776908371, guid: 4fcc77ea55f26d945b573dfcda6191a1,
         type: 3}
       propertyPath: m_RootOrder
@@ -4581,6 +4596,11 @@ PrefabInstance:
     - target: {fileID: 2560618657776908371, guid: 4fcc77ea55f26d945b573dfcda6191a1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867010372170003620, guid: 4fcc77ea55f26d945b573dfcda6191a1,
+        type: 3}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4855,6 +4875,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3435532975767916629, guid: 2742f70bc950d144790db0bc9990575f,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 476481929}
+    - target: {fileID: 3435532975767916629, guid: 2742f70bc950d144790db0bc9990575f,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
     - target: {fileID: 3690092536879617421, guid: 2742f70bc950d144790db0bc9990575f,
         type: 3}
       propertyPath: m_IsActive
@@ -5053,6 +5083,16 @@ PrefabInstance:
     - target: {fileID: 7679357287914543967, guid: 2742f70bc950d144790db0bc9990575f,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7715099430767826283, guid: 2742f70bc950d144790db0bc9990575f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 476481927}
+    - target: {fileID: 7715099430767826283, guid: 2742f70bc950d144790db0bc9990575f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 7773848741448618283, guid: 2742f70bc950d144790db0bc9990575f,

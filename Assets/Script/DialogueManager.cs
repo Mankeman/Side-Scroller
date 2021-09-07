@@ -1,6 +1,8 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -34,8 +36,15 @@ public class DialogueManager : MonoBehaviour
     {
         if(sentences.Count == 1)
         {
-            continueText.text = "Yes";
-            noButton.SetActive(true);
+            if(SceneManager.GetActiveScene().name == "Level21")
+            {
+                continueText.text = "Okay";
+            }
+            else
+            {
+                continueText.text = "Yes";
+                noButton.SetActive(true);
+            }
         }
         if (sentences.Count == 0)
         {

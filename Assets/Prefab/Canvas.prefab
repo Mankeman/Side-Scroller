@@ -1848,7 +1848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1512265496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3877,7 +3877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09c92a25d6242d4386f8db4307a7bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 1512265495}
+  pauseMenuUI: {fileID: 4580836517929121894}
 --- !u!1 &3903551319147028780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5346,7 +5346,7 @@ PrefabInstance:
     - target: {fileID: 8589316817640182786, guid: 5a2063558d1e7bd438524f370d4e100a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8589316818081243660, guid: 5a2063558d1e7bd438524f370d4e100a,
         type: 3}

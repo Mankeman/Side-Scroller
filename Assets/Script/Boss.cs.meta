@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9c50251f30c3428429fd9f87347d400d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - normBird: {fileID: 2560618657776908368, guid: 4fcc77ea55f26d945b573dfcda6191a1,
+      type: 3}
+  - colorBird: {fileID: 2560618657776908368, guid: 34e6c7e2c84b73b43a0738a6f41e8b7b,
+      type: 3}
+  - gemContainer: {instanceID: 0}
+  - leftContainer: {instanceID: 0}
+  - rightContainer: {instanceID: 0}
+  - birdDeathCount: {instanceID: 0}
+  - crying: {instanceID: 0}
+  - soundManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
